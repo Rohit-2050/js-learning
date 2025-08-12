@@ -37,3 +37,22 @@ console.log(str3);//rohit
 console.log(1+"2") //12
 console.log("1"+ 2 + 2); //122
 console.log(1+2+"3")//33
+
+// based on call by value and call by reference datatypes are 2 types
+// primitive call by value - > stored in stack -> gets a copy n cannot change original
+// non primitive call by reference -> stored in heap -> gets reference n can change the original
+//primitve -> string , number , boolean, bighint, null, undefiend,symbol
+// non primitve -> array , fucntion, objects
+
+// string 
+let name = "rohit";
+console.log(`hello ${name}`); //template literal
+name = "ro";
+console.log(name);
+// string methods
+let bio = " I am Rohit, The GOAT ";
+console.log(bio.trim());
+console.log(bio.toLowerCase());
+console.log(bio.includes("goat"));
+console.log(bio.slice(0,9));
+console.log(bio.replace("goat","legend"));
