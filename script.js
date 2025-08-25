@@ -112,3 +112,27 @@ const student = {
 student.skills.push("bootstrap");
 console.log(student.skills[skills.length -1 ]);
 student.skills.replace("css","tailwind");
+
+const studentdata = {
+  name: "rohit",
+  rollno: 107,
+  marks: [99,98,92,91,95],
+  skills: ["py","js","html","bootstrap"],
+  isactive: true
+}
+
+studentdata.skills.push("SQL");
+let sums = 0;
+let avgs = 0;
+
+for(let i =0;i<marks.length;i++){
+sum += marks[i];
+
+}
+avg = sum / marks.length;
+if(avg > 90){
+studentdata.grade = "A";
+}
+else{
+  studentdata.grade = "B";
+}
