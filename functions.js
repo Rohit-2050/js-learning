@@ -60,3 +60,32 @@ for(let i =0;i<=10;i++){
 }
 }
 
+// function to return the sum of array values
+const arrayvalue = [2,4,6,8,10];
+let sum =0;
+//function decleration
+function sum(arr){
+    for(let i =0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+    alert(sum);
+}
+// function experssion
+const exp = function(arr){
+    for(const element of arr){
+        sum+=arr[element];
+    }
+    alert(sum);
+}
+
+//arrow function
+
+const arrow = (arr) => {
+    arr.forEach((num)=>{
+        sum+=arr[num];
+    });
+}
+
+sum(arrayvalue);
+exp(arrayvalue);
+arrow(arrayvalue);
