@@ -1,9 +1,9 @@
-const students = [
-  { name: "Ravi", marks: [88, 76, 92] },
-  { name: "Anjali", marks: [45, 56, 67] },
-  { name: "Karan", marks: [90, 85, 93] },
-  { name: "Priya", marks: [55, 60, 58] }
-];
+// //const students = [
+//   { name: "Ravi", marks: [88, 76, 92] },
+//   { name: "Anjali", marks: [45, 56, 67] },
+//   { name: "Karan", marks: [90, 85, 93] },
+//   { name: "Priya", marks: [55, 60, 58] }
+// ];
 
  
 function avg(student){
@@ -85,3 +85,17 @@ const even = () => {
 }
 
 even(numberss);
+
+//const students = ["Rohit", "Aman", "Priya", "Sneha", "Kabir"];
+
+students.forEach((student)=>{
+  console.log(student.toUpperCase());
+})
+
+students.forEach((student,index)=>{
+  console.log(`${student}: ${index}`);
+})
+
+const numbers = [3, 7, 12, 5, 20, 8];
+
+const isEven = (num) => {num % 2 === 0}
